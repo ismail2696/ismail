@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ismail\Desktop\Pengaduan\Pengaduan\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1f262c505b88be11a47b2e995d56205ed3796ad4">
+        <dex dex="C:\Users\Ismail\Desktop\Pengaduan\Pengaduan\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_24f37db460f5ebe432f736448346ed2f23de4a76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ismail\Desktop\Pengaduan\Pengaduan\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Ismail\Desktop\Pengaduan\Pengaduan\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_260bde279457bf8a65e77a6b86e8ca7ed328e05d\classes.dex" />
+    </item>
+
+</items>
