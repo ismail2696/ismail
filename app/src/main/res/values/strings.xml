@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SPK Wisata YK</string>
+    <string name="app_recom">Rekomendasi</string>
+    <string name="app_peta">Peta Wisata</string>
+    <string name="app_detail">Informasi Detail</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="profil">Aplikasi Ini di tujukan untuk melaporkan gangguan lingkungan seperti kebersihan dan gangguan jalan</string>
+
+    <string-array name="android_dropdown_arrays">
+        <item>Pilih jenis wisata</item>
+        <item>alam</item>
+        <item>Kuliner</item>
+        <item>Sejarah</item>
+    </string-array>
+
+</resources>

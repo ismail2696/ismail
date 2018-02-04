@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bagronall"
+    tools:context="com.mail.pengaduanmail.Daftar">
+
+
+    <TextView
+        android:id="@+id/tvSigup"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sig Up"
+        android:layout_centerHorizontal="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/linIn"
+        android:layout_below="@+id/tvSigup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/username"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/txtUser"
+                android:layout_width="200dp"
+                android:textSize="7pt"
+                android:textColorHint="#fff"
+                android:layout_height="wrap_content"
+                android:hint="Nama Lengkap"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linUser"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/email"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="200dp"
+                android:textSize="7pt"
+                android:textColorHint="#fff"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linPass"
+            android:layout_below="@+id/linUser"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/password"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/txtPass"
+                android:layout_width="200dp"
+                android:textSize="7pt"
+                android:inputType="textPassword"
+                android:textColorHint="#fff"
+                android:layout_height="wrap_content"
+                android:hint="Password"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linhobby"
+            android:layout_below="@+id/linPass"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/password"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/txtHobby"
+                    android:layout_width="200dp"
+                    android:textSize="7pt"
+                    android:textColorHint="#fff"
+                    android:layout_height="wrap_content"
+                    android:text="hobby" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="7dp"
+            android:background="#24a1c7"
+            android:id="@+id/btnDaf"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:textSize="5pt"
+            android:textColor="#fff"
+            android:text="Sigh up"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
